@@ -1,54 +1,37 @@
 🎬 Netflix-Style Churn Prediction
 📘 Building a Machine Learning Case Study
 
-I created this churn prediction project as a hands-on way to deepen my understanding of machine learning, data cleaning, and user behavior analytics.
-Just like my portfolio website helped me grow in frontend development, this project helped me grow in feature engineering, ML modeling, and data storytelling.
+I created this churn prediction project to strengthen my understanding of machine learning workflows, feature engineering, and user behavior analytics. This project reimagines a telecom churn dataset as if it were Netflix user activity, allowing me to practice realistic user-retention modeling.
 
-This wasn’t just a model — it was a complete learning journey.
-
-🧭 Project Motivation
-
-I wanted to imagine how a company like Netflix analyzes user retention:
-
-Why do users churn?
-
-Which behaviors predict that a user may cancel?
-
-What does engagement look like over time?
-
-How can a simple model generate meaningful insights?
-
-Using the IBM Telco Churn dataset, I transformed the telecom-style data into Netflix-style streaming behavior data, making the project feel realistic and industry-aligned.
-
-🛠 Development Journey
+🎯 Development Journey
 Timeline & Approach
 
 Duration: 1–2 days of focused ML exploration
 
-Approach: Transform + engineer features to simulate Netflix user behavior
+Process: Transforming telecom data into Netflix-style streaming behavior
 
-Focus: Clean datasets, interpretability, foundational ML modeling
+Focus: Clean preprocessing, feature engineering, and clear documentation
 
 🧠 Skills I Developed Through This Project
-🔧 Data Cleaning & Wrangling
+Data Cleaning & Preparation
 
 Handling missing values
 
-Converting text values into numeric
+Converting text values into numeric format
 
-Dropping unnecessary identifiers
+Removing unnecessary identifiers
 
-Renaming columns for clarity (e.g., converting telecom terms → streaming terms)
+Renaming columns for consistent terminology
 
-🎛 Feature Engineering
+Feature Engineering
 
-One-hot encoding for categorical variables
+One-hot encoding of categorical features
 
-Creating a synthetic engagement metric: WatchHours
+Creating the synthetic engagement feature WatchHours
 
-Mapping Yes/No → binary labels
+Mapping Yes/No fields to binary labels
 
-Generating Netflix-style features like:
+Designing Netflix-style attributes such as:
 
 MonthsSubscribed
 
@@ -58,107 +41,47 @@ StreamingQuality
 
 TotalAmountPaid
 
-🤖 Machine Learning
+Machine Learning Workflow
 
 Logistic Regression model
 
-Train–test split
+Train-test data splitting
 
-StandardScaler preprocessing
+Standard scaling for numerical features
 
-Model evaluation using:
+Model evaluation using accuracy, precision, recall, and F1-score
 
-Accuracy
-
-Precision
-
-Recall
-
-F1-score
-
-Confusion matrix
-
-📊 Visualization
+Visualization
 
 Confusion matrix heatmap
 
-Dataset sample previews
+Viewing dataset samples
 
-Encoded feature inspection
+Inspecting encoded features
 
-📈 Technical Focus Areas
+⚡ Technical Focus Areas
 What I Worked On
 
-Clean ML pipeline structure
+Structuring a clean ML pipeline
 
-Turning raw CSV data into analysis-ready format
+Designing streaming-like behavioral features
 
-Transforming telecom-style data into Netflix-style product analytics
+Evaluating classification performance
 
-Balancing interpretability with performance
-
-Evaluating classification metrics the right way
+Preparing a reproducible notebook
 
 Skills I Leveled Up
 
-Feature engineering thinking
+Feature engineering skills
 
-ML preprocessing (encoding + scaling)
+Preprocessing pipelines
 
-Reading and interpreting ML evaluation metrics
+Understanding evaluation metrics
 
-Notebook structuring and storytelling
+Project structure and documentation
 
-Project organization and documentation
+🚀 The Learning Outcome
 
-📉 Model Performance
-
-Accuracy: ~80%
-
-Strong performance on non-churners
-
-Good baseline performance for churn prediction
-
-Confusion matrix and full classification report included
-
-This is a realistic, industry-style starter model for streaming churn prediction.
-
-🗂 Project Structure
-Netflix Churn Prediction/
-│── data/
-│   └── telco_churn.csv
-│── netflix_churn_analysis.ipynb
-│── requirements.txt
-│── README.md
-└── venv/
-
-🧪 How to Test This Project Yourself
-1. Clone the repository
-git clone https://github.com/lucckkyyy/Netflix-Churn-Prediction.git
-cd Netflix-Churn-Prediction
-
-2. Create and activate a virtual environment
-python -m venv venv
-venv\Scripts\activate
-
-3. Install the required packages
-pip install -r requirements.txt
-
-4. Launch the notebook
-jupyter notebook
-
-
-Open:
-
-netflix_churn_analysis.ipynb
-
-
-Run the cells to reproduce the churn prediction workflow.
-
-🎯 The Learning Outcome
-
-This project strengthened my ability to translate raw datasets into meaningful insights.
-I learned to create Netflix-style features, build a clean ML pipeline, and document the project professionally.
-It represents a significant step in my growth toward applied data science and user analytics.
+This project strengthened my ability to transform raw data into actionable insights, create realistic product-style features, and build a structured machine learning workflow. It reflects my growing confidence in data science, feature engineering, and model evaluation.
 
 Author: Aryan Rajguru
