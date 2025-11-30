@@ -1,113 +1,164 @@
-🎬🔥 Netflix-Style Customer Churn Prediction
-📉 Predicting Which Users Might Leave the Platform
+🎬 Netflix-Style Churn Prediction
+📘 Building a Machine Learning Case Study
 
-I built this project as a fun machine learning experiment imagining myself as part of Netflix’s Data Science Team.
-Just like my portfolio website project helped me grow in web development, this one helped me level up in machine learning, feature engineering, and data storytelling.
+I created this churn prediction project as a hands-on way to deepen my understanding of machine learning, data cleaning, and user behavior analytics.
+Just like my portfolio website helped me grow in frontend development, this project helped me grow in feature engineering, ML modeling, and data storytelling.
 
-This wasn’t just a model…
-It was a complete learning journey.
+This wasn’t just a model — it was a complete learning journey.
 
-🚀 Project Motivation
+🧭 Project Motivation
 
-I wanted to recreate how a big tech company like Netflix thinks about user behavior:
+I wanted to imagine how a company like Netflix analyzes user retention:
 
-Who might stop using the platform?
+Why do users churn?
 
-Why do they churn?
+Which behaviors predict that a user may cancel?
 
-What patterns make users stay longer?
+What does engagement look like over time?
 
-How can data help predict these outcomes?
+How can a simple model generate meaningful insights?
 
-Using the IBM Telco Churn dataset, I redesigned the entire thing to feel like Netflix data.
+Using the IBM Telco Churn dataset, I transformed the telecom-style data into Netflix-style streaming behavior data, making the project feel realistic and industry-aligned.
 
-🧠 My Approach
+🛠 Development Journey
+Timeline & Approach
 
-This project was my playground to explore:
+Duration: 1–2 days of focused ML exploration
 
-ML pipeline building
+Approach: Transform + engineer features to simulate Netflix user behavior
 
-Feature engineering creativity
+Focus: Clean datasets, interpretability, foundational ML modeling
 
-Clean, structured analysis
+🧠 Skills I Developed Through This Project
+🔧 Data Cleaning & Wrangling
 
-Data visualization
+Handling missing values
 
-Producing a polished notebook for GitHub
+Converting text values into numeric
 
-🎯 What I Worked On
-⭐ Data Transformation (Netflix-Style)
+Dropping unnecessary identifiers
 
-I converted telecom-style columns into streaming-service style ones:
+Renaming columns for clarity (e.g., converting telecom terms → streaming terms)
 
-tenure → MonthsSubscribed
+🎛 Feature Engineering
 
-MonthlyCharges → MonthlySubscriptionFee
+One-hot encoding for categorical variables
 
-InternetService → StreamingQuality
+Creating a synthetic engagement metric: WatchHours
 
-Churn → Churned
+Mapping Yes/No → binary labels
 
-And then I engineered one of the coolest features:
+Generating Netflix-style features like:
 
-🎥 WatchHours
+MonthsSubscribed
 
-A synthetic feature representing user engagement, created using randomness + subscription duration.
+MonthlySubscriptionFee
 
-This made the dataset feel exactly like Netflix internal data.
+StreamingQuality
 
-🧠 Skills I Developed During This Project
-🧹 Data Cleaning & Wrangling
+TotalAmountPaid
 
-Handling missing data
+🤖 Machine Learning
 
-Dropping irrelevant fields
+Logistic Regression model
 
-Converting data types safely
+Train–test split
 
-Renaming & restructuring for clarity
+StandardScaler preprocessing
 
-📦 Feature Engineering
+Model evaluation using:
 
-One-hot encoding
+Accuracy
 
-Synthetic feature creation
+Precision
 
-Mapping Yes/No to binary labels
+Recall
 
-Understanding how engineered features boost model accuracy
+F1-score
 
-🤖 Model Building
-
-Logistic Regression
-
-Data splitting
-
-Standard scaling
-
-Evaluating precision, recall, F1-score
-
-Confusion matrix interpretation
+Confusion matrix
 
 📊 Visualization
 
 Confusion matrix heatmap
 
-Sample data views
+Dataset sample previews
 
-Clear notebook presentation
+Encoded feature inspection
 
-📈 Final Model Performance
-🎉 Accuracy: ~80%+
+📈 Technical Focus Areas
+What I Worked On
 
-This met my goal of achieving above 80% predictive quality.
+Clean ML pipeline structure
 
-📦 Confusion Matrix
+Turning raw CSV data into analysis-ready format
 
-Shows how well churners vs non-churners were identified.
+Transforming telecom-style data into Netflix-style product analytics
 
-🔍 Classification Report
+Balancing interpretability with performance
 
-Provides precision, recall, and F1-scores for deeper insight.
+Evaluating classification metrics the right way
 
-This model is simple, interpretable, and a great starting point for churn prediction in streaming platforms.
+Skills I Leveled Up
+
+Feature engineering thinking
+
+ML preprocessing (encoding + scaling)
+
+Reading and interpreting ML evaluation metrics
+
+Notebook structuring and storytelling
+
+Project organization and documentation
+
+📉 Model Performance
+
+Accuracy: ~80%
+
+Strong performance on non-churners
+
+Good baseline performance for churn prediction
+
+Confusion matrix and full classification report included
+
+This is a realistic, industry-style starter model for streaming churn prediction.
+
+🗂 Project Structure
+Netflix Churn Prediction/
+│── data/
+│   └── telco_churn.csv
+│── netflix_churn_analysis.ipynb
+│── requirements.txt
+│── README.md
+└── venv/
+
+🧪 How to Test This Project Yourself
+1. Clone the repository
+git clone https://github.com/lucckkyyy/Netflix-Churn-Prediction.git
+cd Netflix-Churn-Prediction
+
+2. Create and activate a virtual environment
+python -m venv venv
+venv\Scripts\activate
+
+3. Install the required packages
+pip install -r requirements.txt
+
+4. Launch the notebook
+jupyter notebook
+
+
+Open:
+
+netflix_churn_analysis.ipynb
+
+
+Run the cells to reproduce the churn prediction workflow.
+
+🎯 The Learning Outcome
+
+This project strengthened my ability to translate raw datasets into meaningful insights.
+I learned to create Netflix-style features, build a clean ML pipeline, and document the project professionally.
+It represents a significant step in my growth toward applied data science and user analytics.
+
+Author: Aryan Rajguru
