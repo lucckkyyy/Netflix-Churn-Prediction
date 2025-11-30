@@ -1,89 +1,113 @@
-🎬 Netflix-Style Customer Churn Prediction
-Predicting which users might leave the platform using machine learning
-🚀 Why I Built This Project
+🎬🔥 Netflix-Style Customer Churn Prediction
+📉 Predicting Which Users Might Leave the Platform
 
-I created this project as a fun way to apply machine learning skills to a real-world scenario:
-What if I built a churn prediction system for Netflix?
+I built this project as a fun machine learning experiment imagining myself as part of Netflix’s Data Science Team.
+Just like my portfolio website project helped me grow in web development, this one helped me level up in machine learning, feature engineering, and data storytelling.
 
-This was my opportunity to explore:
+This wasn’t just a model…
+It was a complete learning journey.
 
-Practical ML workflows
+🚀 Project Motivation
 
-Feature engineering
+I wanted to recreate how a big tech company like Netflix thinks about user behavior:
 
-Data cleaning
+Who might stop using the platform?
 
-Model evaluation
+Why do they churn?
 
-And presenting the results in a clean, professional notebook
+What patterns make users stay longer?
 
-I wanted the final model to achieve 80%+ accuracy, and it does.
+How can data help predict these outcomes?
 
-🧠 Project Vision
+Using the IBM Telco Churn dataset, I redesigned the entire thing to feel like Netflix data.
 
-I took the publicly available IBM Telco Customer Churn dataset and transformed it into a Netflix-like dataset by renaming features and engineering new ones such as:
+🧠 My Approach
 
-MonthsSubscribed
+This project was my playground to explore:
 
-MonthlySubscriptionFee
+ML pipeline building
 
-StreamingQuality
+Feature engineering creativity
 
-WatchHours (synthetic engagement metric)
+Clean, structured analysis
 
-The goal was not just accuracy but making the dataset feel like it came straight from a streaming service analytics team.
+Data visualization
 
-🛠️ What I Learned While Building This
-📌 Machine Learning Workflow
+Producing a polished notebook for GitHub
 
-Cleaning and preprocessing real-world data
+🎯 What I Worked On
+⭐ Data Transformation (Netflix-Style)
 
-Encoding categorical variables
+I converted telecom-style columns into streaming-service style ones:
 
-Handling missing values
+tenure → MonthsSubscribed
 
-Scaling numerical features
+MonthlyCharges → MonthlySubscriptionFee
 
-Splitting into train/test sets
+InternetService → StreamingQuality
 
-Training a classification model
+Churn → Churned
 
-Evaluating accuracy and understanding misclassifications
+And then I engineered one of the coolest features:
 
-📌 Feature Engineering
+🎥 WatchHours
 
-Renaming telecom-style features into Netflix-style
+A synthetic feature representing user engagement, created using randomness + subscription duration.
 
-Creating a new engagement feature: WatchHours
+This made the dataset feel exactly like Netflix internal data.
 
-Understanding how engineered features impact prediction accuracy
+🧠 Skills I Developed During This Project
+🧹 Data Cleaning & Wrangling
 
-📌 Data Visualization
+Handling missing data
 
-Plotting a confusion matrix heatmap
+Dropping irrelevant fields
 
-Examining which categories impact churn
+Converting data types safely
 
-Presenting ML output clearly in Jupyter Notebook
+Renaming & restructuring for clarity
 
-📌 Tools Used
+📦 Feature Engineering
 
-Python
+One-hot encoding
 
-Pandas, NumPy
+Synthetic feature creation
 
-Scikit-learn
+Mapping Yes/No to binary labels
 
-Matplotlib
+Understanding how engineered features boost model accuracy
 
-Jupyter Notebook
+🤖 Model Building
 
-🎯 Final Results
+Logistic Regression
 
-✔ Accuracy: 80%+
-✔ Clean and readable Jupyter Notebook
-✔ Updated dataset fields for a streaming service use-case
-✔ Confusion matrix + classification report
-✔ Reproducible on any computer
+Data splitting
 
-This project showcases how a simple ML model can become powerful when combined with thoughtful feature engineering and clear presentation.
+Standard scaling
+
+Evaluating precision, recall, F1-score
+
+Confusion matrix interpretation
+
+📊 Visualization
+
+Confusion matrix heatmap
+
+Sample data views
+
+Clear notebook presentation
+
+📈 Final Model Performance
+🎉 Accuracy: ~80%+
+
+This met my goal of achieving above 80% predictive quality.
+
+📦 Confusion Matrix
+
+Shows how well churners vs non-churners were identified.
+
+🔍 Classification Report
+
+Provides precision, recall, and F1-scores for deeper insight.
+
+This model is simple, interpretable, and a great starting point for churn prediction in streaming platforms.
