@@ -1,58 +1,89 @@
-\# Netflix-Style Customer Churn Prediction 🎬📉
+🎬 Netflix-Style Customer Churn Prediction
+Predicting which users might leave the platform using machine learning
+🚀 Why I Built This Project
 
+I created this project as a fun way to apply machine learning skills to a real-world scenario:
+What if I built a churn prediction system for Netflix?
 
+This was my opportunity to explore:
 
-A fun machine learning project where I predict user churn as if I were analyzing data for \*\*Netflix\*\*.
+Practical ML workflows
 
+Feature engineering
 
+Data cleaning
 
-I used the IBM Telco Customer Churn dataset but renamed and engineered features to look like a streaming platform dataset (e.g., `MonthsSubscribed`, `MonthlySubscriptionFee`, `StreamingQuality`, `WatchHours`).
+Model evaluation
 
+And presenting the results in a clean, professional notebook
 
+I wanted the final model to achieve 80%+ accuracy, and it does.
 
-The goal was to create a \*\*simple, clean notebook\*\* with accuracy above \*\*80%\*\*, which can act as a starter churn model.
+🧠 Project Vision
 
+I took the publicly available IBM Telco Customer Churn dataset and transformed it into a Netflix-like dataset by renaming features and engineering new ones such as:
 
+MonthsSubscribed
 
----
+MonthlySubscriptionFee
 
+StreamingQuality
 
+WatchHours (synthetic engagement metric)
 
-\## 📊 What the project does
+The goal was not just accuracy but making the dataset feel like it came straight from a streaming service analytics team.
 
+🛠️ What I Learned While Building This
+📌 Machine Learning Workflow
 
+Cleaning and preprocessing real-world data
 
-\- Loads and cleans the dataset  
+Encoding categorical variables
 
-\- Renames telecom-style columns to Netflix-style  
+Handling missing values
 
-\- Creates a synthetic engagement feature (`WatchHours`)  
+Scaling numerical features
 
-\- Applies one-hot encoding  
+Splitting into train/test sets
 
-\- Scales numerical features  
+Training a classification model
 
-\- Trains a \*\*Logistic Regression\*\* model  
+Evaluating accuracy and understanding misclassifications
 
-\- Prints:
+📌 Feature Engineering
 
-&nbsp; - Accuracy (≈80%+)
+Renaming telecom-style features into Netflix-style
 
-&nbsp; - Confusion matrix  
+Creating a new engagement feature: WatchHours
 
-&nbsp; - Classification report  
+Understanding how engineered features impact prediction accuracy
 
-\- Plots a confusion matrix heatmap  
+📌 Data Visualization
 
+Plotting a confusion matrix heatmap
 
+Examining which categories impact churn
 
----
+Presenting ML output clearly in Jupyter Notebook
 
+📌 Tools Used
 
+Python
 
-\## 🗂 Project Structure
+Pandas, NumPy
 
+Scikit-learn
 
+Matplotlib
 
+Jupyter Notebook
 
+🎯 Final Results
 
+✔ Accuracy: 80%+
+✔ Clean and readable Jupyter Notebook
+✔ Updated dataset fields for a streaming service use-case
+✔ Confusion matrix + classification report
+✔ Reproducible on any computer
+
+This project showcases how a simple ML model can become powerful when combined with thoughtful feature engineering and clear presentation.
